@@ -29,8 +29,11 @@ body {
 
 /* ===== NAVBAR ===== */
 .navbar {
-  position: sticky;
+  position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
   background: #000;
   z-index: 1000;
   transition: var(--transition);
@@ -45,7 +48,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 70px;
+  height: 90px;
+}
+
+body {
+  padding-top: 90px;
 }
 
 .nav-logo {

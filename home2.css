@@ -585,10 +585,11 @@ html, body{
 overflow-x:hidden;
 }
 
-/* Ensure containers never exceed screen width */
+/* Ensure containers have side gaps and stay centered */
 .container{
-max-width:100%;
-padding-left:20px;
-padding-right:20px;
-box-sizing:border-box;
+  max-width:1200px;
+  margin:0 auto;
+  padding-left:20px;
+  padding-right:20px;
+  box-sizing:border-box;
 }
